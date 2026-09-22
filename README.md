@@ -91,20 +91,6 @@ The sensor sends an ultrasonic pulse toward the fuel surface and measures the ti
 The ESP32 uses this measurement to determine the distance between the sensor and the fuel surface.
 
 
-Sensor
-  │
-  │ Ultrasonic pulse
-  ▼
-  ~~~~~~~~~~~~~~~  ← Fuel surface
-       ↑
-       │ Distance
-       │
-```
-
-The measured distance is then converted into fuel height, percentage, and volume.
-
----
-
 # 📏 Tank Calibration
 
 The system uses calibrated reference distances corresponding to the full and empty conditions of the tank.
@@ -343,32 +329,6 @@ The firmware can identify abnormal ultrasonic measurements such as:
 This prevents invalid measurements from directly producing uncontrolled output values.
 
 ---
-
-
-
-# 📚 Detailed Documentation
-
-More detailed technical information is available in the following documents:
-
-* [System Architecture](documentation/system-overview.md)
-* [Hardware](documentation/hardware.md)
-* [Calibration](documentation/calibration.md)
-* [Fuel Calculations](documentation/calculations.md)
-* [Wiring](documentation/wiring.md)
-* [Testing](documentation/testing.md)
-
----
-
-# 🔗 Firmware
-
-The ESP32 firmware used for the fuel monitoring system is available here:
-
-**ESP32 Fuel Monitoring Firmware**
-
-https://github.com/thisara374/Ultrasonic-Fuel-Level-Monitoring-System-using-ESP32
-
----
-
 # 🔬 Applications
 
 The system can be adapted for:
