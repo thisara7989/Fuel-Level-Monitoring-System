@@ -372,7 +372,7 @@ Site-specific configurations, credentials, network information, and confidential
 
 # 👨‍💻 Author
 
-**Thisara S**
+**Thisara Siriwardhana**
 
 Computer Engineering Undergraduate
 
