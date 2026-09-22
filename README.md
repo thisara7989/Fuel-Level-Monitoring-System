@@ -379,7 +379,3 @@ Computer Engineering Undergraduate
 Sri Lanka
 
 ---
-
-## 📄 Technical Documentation
-
-This project is supported by detailed technical documentation covering the system architecture, methodology, calibration, hardware implementation, calculations, testing, and DSE 7320 MKII integration.
